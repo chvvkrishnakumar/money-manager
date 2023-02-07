@@ -131,14 +131,14 @@ class MoneyManager extends Component {
           </div>
           <div className="transaction">
             <h1>History</h1>
-
-            <div className="history">
-              <p>Title</p>
-              <p>Amount</p>
-              <p>Type</p>
-              <p> </p>
-            </div>
             <ul>
+              <div className="history">
+                <p>Title</p>
+                <p>Amount</p>
+                <p>Type</p>
+                <p> </p>
+              </div>
+
               {history.map(each => (
                 <History details={each} key={each.id} deleted={this.deleted} />
               ))}
