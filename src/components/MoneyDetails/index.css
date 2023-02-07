@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.money {
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  height: 75px;
+  margin: 10px;
+}
+.sub {
+  display: flex;
+  margin: 10px;
+  background-color: bisque;
+  border-radius: 15px;
+  width: 30vw;
+}
+span {
+  color: blue;
+}

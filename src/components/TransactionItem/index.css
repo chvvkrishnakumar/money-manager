@@ -1,0 +1,9 @@
+/* Write your CSS here */
+img {
+  height: 20px;
+}
+.button {
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
